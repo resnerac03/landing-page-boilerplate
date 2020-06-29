@@ -1,1 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+// Global
+@import 'base';
+@import 'media';
+
+// Big Components (ex. containers, wrapper, modal, etc..)
+@import 'components/main-wrapper';
+@import 'components/main-container';
+@import 'components/main-nav';
+@import 'components/main-body';
+@import 'components/main-footer';
+
+// Small Componenets (ex. buttons, cards, nav links, etc..)
+@import 'components/main-logo';
+@import 'components/nav-list';
+@import 'components/main-btn';
+

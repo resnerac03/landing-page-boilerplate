@@ -1,0 +1,44 @@
+.main-btn {
+    &{
+        text-decoration: none;
+        background: linear-gradient(to bottom, #2099f7 0%, rgba(36, 100, 228, 0.98) 98%);
+        box-shadow: 0 1px 24px 0 rgba(66, 127, 247, 0.5);
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        width: 26rem;
+        height: 4.325rem;
+        font-size: 22px;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #f3ae17;
+        // transition: all .33s cubic-bezier(.17,.67,.83,.67);
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        cursor: pointer;
+        @media #{$ultrabook} {
+            width: 23rem;
+            height: 3.725rem;
+            font-size: 20px;
+        }
+        @media #{$phone} {
+            width: 16rem;
+            height: 3.225rem;
+            font-size: 14px;
+        }
+    }
+    &.-lg{
+       &{
+            // width: 26rem;
+            // height: 4.325rem;
+       }
+        >.icon{
+            height: 29px;
+            margin-right: .5rem;
+        }
+    }
+}

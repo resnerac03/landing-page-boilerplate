@@ -6,4 +6,56 @@
         margin: 0 auto;
         position: relative;
     }
+
+    >.head{
+        font-size: 2rem;
+        margin: 10px 0;
+
+        &.-home{
+            font-weight: bold;
+            margin-top: 40px;
+        }
+    }
+
+    >.desc{
+        font-size: 1.1rem;
+        line-height: 1.8em;
+        margin: 20px 0 30px;
+    }
+
+    &.-nav{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &.-footer{
+
+        >.links{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+           li {
+               a{ 
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+
+                &:after{
+                    content: "|";
+                    padding: 0 15px;
+                    color: #7d7d7d;
+
+                }
+
+                &:nth-child(3){
+                    &:after{
+                        content: "";
+                    }
+                }
+           }
+        }
+    }
 }

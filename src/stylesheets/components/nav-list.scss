@@ -1,0 +1,20 @@
+.nav-list {
+    &{
+        grid-area: nav-list;
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    >.item > a{
+        color: #ffffff;
+        text-decoration: none;
+        transition: all .22s cubic-bezier(.17,.67,.83,.67);
+        text-transform: uppercase;
+        font-size: .875rem;
+        font-weight: 600;
+        display: block;
+        padding: .5rem 1rem;
+    }
+}
