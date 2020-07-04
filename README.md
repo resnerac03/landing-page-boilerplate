@@ -1,6 +1,6 @@
 # Front-end Boilerplate using laravel-mix and SASS
 
-Starter project setup for any landing page using laravel-mix
+Starter project setup for any website with SASS 
 
 ## Installation
 Delete package-lock.json and run
