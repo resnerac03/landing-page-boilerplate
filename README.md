@@ -1,4 +1,4 @@
-# landing-page-boilerplate
+# Front-end Boilerplate using laravel-mix and SASS
 
 Starter project setup for any landing page using laravel-mix
 
